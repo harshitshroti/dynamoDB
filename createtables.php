@@ -1,26 +1,4 @@
 
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@harshitshroti
-
-0
-0
-
-    50
-
-SaiDevOpsFaculty/dynamodb forked from ACloudGuru/dynamodb
-Code
-Pull requests 0
-Projects 0
-Wiki
-Security
-Insights
-dynamodb/createtables.php
-@acloudgurugit acloudgurugit Added files via upload 74d439f on Apr 22, 2016
-161 lines (146 sloc) 4.82 KB
 <?php
     //Code is provided by AWS and available here; http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/AppendixSampleDataCodePHP.html
     
@@ -181,18 +159,3 @@ dynamodb/createtables.php
         $client->waitUntil('TableExists', array('TableName' => $tableName)); // Changed from v2
         echo "Table $tableName has been created." . PHP_EOL;
     }
-
-    © 2019 GitHub, Inc.
-    Terms
-    Privacy
-    Security
-    Status
-    Help
-
-    Contact GitHub
-    Pricing
-    API
-    Training
-    Blog
-    About
-
